@@ -1,0 +1,337 @@
+
+> start:client
+> vite
+
+
+  VITE v7.3.0  ready in 903 ms
+
+  ➜  Local:   http://localhost:9000/
+  ➜  Network: use --host to expose
+[vite-plugin-static-copy] Collected 2 items.
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/background.webp, use /images/background.webp.
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/OpenFront.webp, use /images/OpenFront.webp.
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/OF.webp, use /images/OF.webp.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/version.txt?raw instead of /resources/version.txt?raw.
+If you intend to use the URL of that asset, use /version.txt?url&raw.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/countries.json instead of /resources/countries.json.
+If you intend to use the URL of that asset, use /countries.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/QuickChat.json instead of /resources/QuickChat.json.
+If you intend to use the URL of that asset, use /QuickChat.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/lang/en.json instead of /resources/lang/en.json.
+If you intend to use the URL of that asset, use /lang/en.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/lang/metadata.json instead of /resources/lang/metadata.json.
+If you intend to use the URL of that asset, use /lang/metadata.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/bigsmoke.png instead of /resources/sprites/bigsmoke.png.
+If you intend to use the URL of that asset, use /sprites/bigsmoke.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/buildingExplosion.png instead of /resources/sprites/buildingExplosion.png.
+If you intend to use the URL of that asset, use /sprites/buildingExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/conquestSword.png instead of /resources/sprites/conquestSword.png.
+If you intend to use the URL of that asset, use /sprites/conquestSword.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/dust.png instead of /resources/sprites/dust.png.
+If you intend to use the URL of that asset, use /sprites/dust.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/miniExplosion.png instead of /resources/sprites/miniExplosion.png.
+If you intend to use the URL of that asset, use /sprites/miniExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/minifire.png instead of /resources/sprites/minifire.png.
+If you intend to use the URL of that asset, use /sprites/minifire.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/nukeExplosion.png instead of /resources/sprites/nukeExplosion.png.
+If you intend to use the URL of that asset, use /sprites/nukeExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/samExplosion.png instead of /resources/sprites/samExplosion.png.
+If you intend to use the URL of that asset, use /sprites/samExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/sinkingShip.png instead of /resources/sprites/sinkingShip.png.
+If you intend to use the URL of that asset, use /sprites/sinkingShip.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/smoke.png instead of /resources/sprites/smoke.png.
+If you intend to use the URL of that asset, use /sprites/smoke.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/smokeAndFire.png instead of /resources/sprites/smokeAndFire.png.
+If you intend to use the URL of that asset, use /sprites/smokeAndFire.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/unitExplosion.png instead of /resources/sprites/unitExplosion.png.
+If you intend to use the URL of that asset, use /sprites/unitExplosion.png?url.
+
+
+ ERROR  11:41:45 AM [vite] http proxy error: /api/env
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+
+ ERROR  11:41:45 AM [vite] http proxy error: /api/env
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/background.webp, use /images/background.webp.
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/OpenFront.webp, use /images/OpenFront.webp.
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/OF.webp, use /images/OF.webp.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/version.txt?raw instead of /resources/version.txt?raw.
+If you intend to use the URL of that asset, use /version.txt?url&raw.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/countries.json instead of /resources/countries.json.
+If you intend to use the URL of that asset, use /countries.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/QuickChat.json instead of /resources/QuickChat.json.
+If you intend to use the URL of that asset, use /QuickChat.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/lang/en.json instead of /resources/lang/en.json.
+If you intend to use the URL of that asset, use /lang/en.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/lang/metadata.json instead of /resources/lang/metadata.json.
+If you intend to use the URL of that asset, use /lang/metadata.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/bigsmoke.png instead of /resources/sprites/bigsmoke.png.
+If you intend to use the URL of that asset, use /sprites/bigsmoke.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/buildingExplosion.png instead of /resources/sprites/buildingExplosion.png.
+If you intend to use the URL of that asset, use /sprites/buildingExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/conquestSword.png instead of /resources/sprites/conquestSword.png.
+If you intend to use the URL of that asset, use /sprites/conquestSword.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/dust.png instead of /resources/sprites/dust.png.
+If you intend to use the URL of that asset, use /sprites/dust.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/miniExplosion.png instead of /resources/sprites/miniExplosion.png.
+If you intend to use the URL of that asset, use /sprites/miniExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/minifire.png instead of /resources/sprites/minifire.png.
+If you intend to use the URL of that asset, use /sprites/minifire.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/nukeExplosion.png instead of /resources/sprites/nukeExplosion.png.
+If you intend to use the URL of that asset, use /sprites/nukeExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/samExplosion.png instead of /resources/sprites/samExplosion.png.
+If you intend to use the URL of that asset, use /sprites/samExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/sinkingShip.png instead of /resources/sprites/sinkingShip.png.
+If you intend to use the URL of that asset, use /sprites/sinkingShip.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/smoke.png instead of /resources/sprites/smoke.png.
+If you intend to use the URL of that asset, use /sprites/smoke.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/smokeAndFire.png instead of /resources/sprites/smokeAndFire.png.
+If you intend to use the URL of that asset, use /sprites/smokeAndFire.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/unitExplosion.png instead of /resources/sprites/unitExplosion.png.
+If you intend to use the URL of that asset, use /sprites/unitExplosion.png?url.
+
+
+ ERROR  11:42:29 AM [vite] http proxy error: /api/env
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+
+ ERROR  11:42:29 AM [vite] http proxy error: /api/env
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/background.webp, use /images/background.webp.
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/OpenFront.webp, use /images/OpenFront.webp.
+
+
+ WARN  Files in the public directory are served at the root path.
+Instead of /resources/images/OF.webp, use /images/OF.webp.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/version.txt?raw instead of /resources/version.txt?raw.
+If you intend to use the URL of that asset, use /version.txt?url&raw.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/countries.json instead of /resources/countries.json.
+If you intend to use the URL of that asset, use /countries.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/QuickChat.json instead of /resources/QuickChat.json.
+If you intend to use the URL of that asset, use /QuickChat.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/lang/en.json instead of /resources/lang/en.json.
+If you intend to use the URL of that asset, use /lang/en.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/lang/metadata.json instead of /resources/lang/metadata.json.
+If you intend to use the URL of that asset, use /lang/metadata.json?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/bigsmoke.png instead of /resources/sprites/bigsmoke.png.
+If you intend to use the URL of that asset, use /sprites/bigsmoke.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/buildingExplosion.png instead of /resources/sprites/buildingExplosion.png.
+If you intend to use the URL of that asset, use /sprites/buildingExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/conquestSword.png instead of /resources/sprites/conquestSword.png.
+If you intend to use the URL of that asset, use /sprites/conquestSword.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/dust.png instead of /resources/sprites/dust.png.
+If you intend to use the URL of that asset, use /sprites/dust.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/miniExplosion.png instead of /resources/sprites/miniExplosion.png.
+If you intend to use the URL of that asset, use /sprites/miniExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/minifire.png instead of /resources/sprites/minifire.png.
+If you intend to use the URL of that asset, use /sprites/minifire.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/nukeExplosion.png instead of /resources/sprites/nukeExplosion.png.
+If you intend to use the URL of that asset, use /sprites/nukeExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/samExplosion.png instead of /resources/sprites/samExplosion.png.
+If you intend to use the URL of that asset, use /sprites/samExplosion.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/sinkingShip.png instead of /resources/sprites/sinkingShip.png.
+If you intend to use the URL of that asset, use /sprites/sinkingShip.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/smoke.png instead of /resources/sprites/smoke.png.
+If you intend to use the URL of that asset, use /sprites/smoke.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/smokeAndFire.png instead of /resources/sprites/smokeAndFire.png.
+If you intend to use the URL of that asset, use /sprites/smokeAndFire.png?url.
+
+
+ WARN  Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/sprites/unitExplosion.png instead of /resources/sprites/unitExplosion.png.
+If you intend to use the URL of that asset, use /sprites/unitExplosion.png?url.
+
+
+ ERROR  11:43:16 AM [vite] http proxy error: /api/env
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+
+ ERROR  11:43:16 AM [vite] http proxy error: /api/env
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
