@@ -13,7 +13,6 @@ function findMissing(source, target, path = '') {
             if (typeof target[key] === 'object' && target[key] !== null) {
                 missing = missing.concat(findMissing(source[key], target[key], fullPath));
             } else {
-                // Type mismatch
                 missing.push(`${fullPath} (type mismatch: expected object, got ${typeof target[key]})`);
             }
         }
