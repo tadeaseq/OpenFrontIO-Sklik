@@ -1,5 +1,6 @@
-import { LitElement, html } from "lit";
+import { html, LitElement } from "lit";
 import { customElement } from "lit/decorators.js";
+import { DONATE_URL } from "../Utils";
 
 @customElement("page-footer")
 export class Footer extends LitElement {
@@ -84,6 +85,13 @@ export class Footer extends LitElement {
             data-i18n="main.privacy_policy"
             target="_blank"
             class="hover:text-white transition-colors"
+          ></a>
+          <a
+            href="${DONATE_URL}"
+            data-i18n="main.donate"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:text-green-500 transition-colors"
           ></a>
         </div>
       </footer>

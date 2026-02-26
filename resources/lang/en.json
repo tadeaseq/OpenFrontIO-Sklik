@@ -48,7 +48,8 @@
     "help": "Help",
     "menu": "Menu",
     "troubleshooting": "Troubleshooting",
-    "go_to_troubleshooting": "Go to our troubleshooting page"
+    "go_to_troubleshooting": "Go to our troubleshooting page",
+    "donate": "Donate"
   },
   "news": {
     "github_link": "on GitHub",
@@ -707,7 +708,10 @@
     "join_discord": "Join Our Discord Community!",
     "discord_description": "Connect with players, discover new features, and win prizes!",
     "join_server": "Join Server",
-    "youtube_tutorial": "Need some help?"
+    "youtube_tutorial": "Need some help?",
+    "donate_title": "Support development",
+    "donate_description": "If you enjoy the game, consider supporting its development with a donation!",
+    "donate_button": "Donate"
   },
   "leaderboard": {
     "hide": "Hide",

@@ -5,6 +5,7 @@ import {
   isInIframe,
   translateText,
   TUTORIAL_VIDEO_URL,
+  DONATE_URL,
 } from "../../../client/Utils";
 import { ColorPalette, Pattern } from "../../../core/CosmeticSchemas";
 import { EventBus } from "../../../core/EventBus";
@@ -110,10 +111,12 @@ export class WinModal extends LitElement implements Layer {
     if (!this.isWin && getGamesPlayed() < 3) {
       return this.renderYoutubeTutorial();
     }
-    if (this.rand < 0.25) {
+    if (this.rand < 0.2) {
       return this.steamWishlist();
-    } else if (this.rand < 0.5) {
+    } else if (this.rand < 0.4) {
       return this.discordDisplay();
+    } else if (this.rand < 0.6) {
+      return this.donateDisplay();
     } else {
       return this.renderPatternButton();
     }
@@ -136,6 +139,27 @@ export class WinModal extends LitElement implements Layer {
             allowfullscreen
           ></iframe>
         </div>
+      </div>
+    `;
+  }
+
+  donateDisplay(): TemplateResult {
+    return html`
+      <div class="text-center mb-6 bg-black/30 p-2.5 rounded-sm">
+        <h3 class="text-xl font-semibold text-white mb-3">
+          ${translateText("win_modal.donate_title")}
+        </h3>
+        <p class="text-white mb-3">
+          ${translateText("win_modal.donate_description")}
+        </p>
+        <a
+          href="${DONATE_URL}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block px-6 py-3 bg-green-600 text-white rounded-sm font-semibold transition-all duration-200 hover:bg-green-700 hover:-translate-y-px no-underline"
+        >
+          ${translateText("win_modal.donate_button")}
+        </a>
       </div>
     `;
   }

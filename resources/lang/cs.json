@@ -16,7 +16,8 @@
     "single_player": "Jeden hráč",
     "instructions": "Instrukce",
     "how_to_play": "Jak Hrát",
-    "wiki": "Wiki"
+    "wiki": "Wiki",
+    "donate": "Přispět"
   },
   "help_modal": {
     "hotkeys": "Klávesové zkratky",
@@ -356,7 +357,10 @@
     "you_won": "Vyhrál*a jsi!",
     "other_won": "{player} vyhrál*a!",
     "exit": "Ukončit Hru",
-    "keep": "Hrát Dál"
+    "keep": "Hrát Dál",
+    "donate_title": "Podpoř vývoj",
+    "donate_description": "Pokud tě hra baví, zvaž prosím podporu jejího vývoje darem!",
+    "donate_button": "Přispět"
   },
   "leaderboard": {
     "title": "Leaderboard",
