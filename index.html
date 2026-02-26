@@ -81,6 +81,7 @@
       window.ramp.passiveMode = true;
     </script>
 
+    <% if (googleAdsId !== '"undefined"') { %>
     <script>
       window.googletag = window.googletag || { cmd: [] };
       googletag.cmd.push(function () {
@@ -88,10 +89,10 @@
       });
     </script>
 
-    <!-- Analytics -->
+    <!-- Google Ads -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-16702609763"
+      src="https://www.googletagmanager.com/gtag/js?id=<%- JSON.parse(googleAdsId) %>"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -101,12 +102,15 @@
       }
 
       gtag("js", new Date());
-      gtag("config", "AW-16702609763");
+      gtag("config", <%- googleAdsId %>);
     </script>
-    <!-- Google tag (gtag.js) -->
+    <% } %>
+
+    <% if (googleAnalyticsId !== '"undefined"') { %>
+    <!-- Google Analytics -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-WQGQQ8RDN4"
+      src="https://www.googletagmanager.com/gtag/js?id=<%- JSON.parse(googleAnalyticsId) %>"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -115,10 +119,12 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "G-WQGQQ8RDN4");
+      gtag("config", <%- googleAnalyticsId %>);
     </script>
+    <% } %>
 
     <!-- Sklik Retargeting -->
+    <% if (sklikRetargetingId !== '"undefined"') { %>
     <script type="text/javascript" src="https://c.seznam.cz/js/rc.js"></script>
     <script type="text/javascript">
       /* <![CDATA[ */
@@ -131,9 +137,13 @@
       }
       /* ]]> */
     </script>
+    <% } %>
+
+    <% if (sklikConversionId !== '"undefined"') { %>
     <script>
       window.SKLIK_CONVERSION_ID = <%- sklikConversionId %>;
     </script>
+    <% } %>
   </head>
 
   <body

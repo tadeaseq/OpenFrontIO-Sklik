@@ -13,6 +13,10 @@ export async function renderHtmlContent(htmlPath: string): Promise<string> {
     sklikConversionId: JSON.stringify(
       process.env.SKLIK_CONVERSION_ID ?? "undefined",
     ),
+    googleAdsId: JSON.stringify(process.env.GOOGLE_ADS_ID ?? "undefined"),
+    googleAnalyticsId: JSON.stringify(
+      process.env.GOOGLE_ANALYTICS_ID ?? "undefined",
+    ),
   });
 }
 

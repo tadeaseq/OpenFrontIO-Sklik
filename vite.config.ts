@@ -67,6 +67,8 @@ export default defineConfig(({ mode }) => {
                   instanceId: JSON.stringify("DEV_ID"),
                   sklikRetargetingId: JSON.stringify("undefined"),
                   sklikConversionId: JSON.stringify("undefined"),
+                  googleAdsId: JSON.stringify("undefined"),
+                  googleAnalyticsId: JSON.stringify("undefined"),
                 },
               },
             }),
