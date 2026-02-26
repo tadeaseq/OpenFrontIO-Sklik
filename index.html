@@ -88,51 +88,62 @@
       });
     </script>
 
-    <!-- Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-16702609763"
-    ></script>
+    <!-- Analytics & Ads -->
     <script>
-      window.dataLayer = window.dataLayer || [];
+      window.GOOGLE_ADS_ID = <%- googleAdsId %>;
+      window.GOOGLE_ANALYTICS_ID = <%- googleAnalyticsId %>;
+      window.SKLIK_RETARGETING_ID = <%- sklikRetargetingId %>;
+      window.SKLIK_CONVERSION_ID = <%- sklikConversionId %>;
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-
-      gtag("js", new Date());
-      gtag("config", "AW-16702609763");
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-WQGQQ8RDN4"
-    ></script>
-    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
 
-      gtag("config", "G-WQGQQ8RDN4");
+      const hasAds =
+        window.GOOGLE_ADS_ID &&
+        window.GOOGLE_ADS_ID !== "undefined" &&
+        window.GOOGLE_ADS_ID !== "null";
+      const hasAnalytics =
+        window.GOOGLE_ANALYTICS_ID &&
+        window.GOOGLE_ANALYTICS_ID !== "undefined" &&
+        window.GOOGLE_ANALYTICS_ID !== "null";
+
+      if (hasAds || hasAnalytics) {
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${
+          hasAds ? window.GOOGLE_ADS_ID : window.GOOGLE_ANALYTICS_ID
+        }`;
+        document.head.appendChild(script);
+
+        gtag("js", new Date());
+        if (hasAds) gtag("config", window.GOOGLE_ADS_ID);
+        if (hasAnalytics) gtag("config", window.GOOGLE_ANALYTICS_ID);
+      }
     </script>
 
     <!-- Sklik Retargeting -->
-    <script type="text/javascript" src="https://c.seznam.cz/js/rc.js"></script>
-    <script type="text/javascript">
-      /* <![CDATA[ */
-      var retargetingConf = {
-        id: <%- sklikRetargetingId %>,
-        consent: 1,
-      };
-      if (window.rc && window.rc.retargeting) {
-        window.rc.retargeting(retargetingConf);
-      }
-      /* ]]> */
-    </script>
     <script>
-      window.SKLIK_CONVERSION_ID = <%- sklikConversionId %>;
+      if (
+        window.SKLIK_RETARGETING_ID &&
+        window.SKLIK_RETARGETING_ID !== "undefined" &&
+        window.SKLIK_RETARGETING_ID !== "null"
+      ) {
+        const script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://c.seznam.cz/js/rc.js";
+        script.onload = () => {
+          var retargetingConf = {
+            id: window.SKLIK_RETARGETING_ID,
+            consent: 1,
+          };
+          if (window.rc && window.rc.retargeting) {
+            window.rc.retargeting(retargetingConf);
+          }
+        };
+        document.head.appendChild(script);
+      }
     </script>
   </head>
 
