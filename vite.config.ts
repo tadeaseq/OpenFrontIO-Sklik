@@ -65,8 +65,16 @@ export default defineConfig(({ mode }) => {
                 data: {
                   gitCommit: JSON.stringify("DEV"),
                   instanceId: JSON.stringify("DEV_ID"),
-                  sklikRetargetingId: JSON.stringify("undefined"),
-                  sklikConversionId: JSON.stringify("undefined"),
+                  sklikRetargetingId: JSON.stringify(
+                    env.SKLIK_RETARGETING_ID ?? "undefined",
+                  ),
+                  sklikConversionId: JSON.stringify(
+                    env.SKLIK_CONVERSION_ID ?? "undefined",
+                  ),
+                  googleAdsId: JSON.stringify(env.GOOGLE_ADS_ID ?? "undefined"),
+                  googleAnalyticsId: JSON.stringify(
+                    env.GOOGLE_ANALYTICS_ID ?? "undefined",
+                  ),
                 },
               },
             }),
