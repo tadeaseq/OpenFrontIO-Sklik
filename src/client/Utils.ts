@@ -12,6 +12,8 @@ import { GameConfig } from "../core/Schemas";
 import type { LangSelector } from "./LangSelector";
 
 export const TUTORIAL_VIDEO_URL = "https://www.youtube.com/embed/EN2oOog3pSs";
+export const DONATE_URL =
+  "https://www.paypal.com/donate/?hosted_button_id=X69G7S6R6T482";
 
 export function normaliseMapKey(mapName: string): string {
   return mapName.toLowerCase().replace(/[\s.]+/g, "");

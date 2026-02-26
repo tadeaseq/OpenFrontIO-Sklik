@@ -1,5 +1,6 @@
-import { LitElement, html } from "lit";
+import { html, LitElement } from "lit";
 import { customElement } from "lit/decorators.js";
+import { DONATE_URL } from "../Utils";
 import { NavNotificationsController } from "./NavNotificationsController";
 
 @customElement("desktop-nav-bar")
@@ -175,6 +176,13 @@ export class DesktopNavBar extends LitElement {
               `
             : ""}
         </div>
+        <a
+          href="${DONATE_URL}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="nav-menu-item text-white/70 hover:text-green-500 font-bold tracking-widest uppercase cursor-pointer transition-colors no-underline"
+          data-i18n="main.donate"
+        ></a>
         <lang-selector></lang-selector>
         <button
           id="nav-account-button"

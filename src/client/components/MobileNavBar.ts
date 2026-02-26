@@ -1,5 +1,6 @@
 import { html, LitElement, TemplateResult } from "lit";
 import { customElement } from "lit/decorators.js";
+import { DONATE_URL } from "../Utils";
 import { NavNotificationsController } from "./NavNotificationsController";
 
 @customElement("mobile-nav-bar")
@@ -187,6 +188,13 @@ export class MobileNavBar extends LitElement {
             ? this._renderDot("bg-yellow-400")
             : ""}
         </div>
+        <a
+          href="${DONATE_URL}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="nav-menu-item block w-full text-left font-bold uppercase tracking-[0.05em] text-white/70 transition-all duration-200 cursor-pointer hover:text-green-500 hover:translate-x-2.5 hover:drop-shadow-[0_0_20px_rgba(34,197,94,0.5)] text-[clamp(18px,2.8vh,32px)] py-[clamp(0.2rem,0.8vh,0.75rem)] no-underline"
+          data-i18n="main.donate"
+        ></a>
         <div
           class="flex flex-col w-full mt-auto [.in-game_&]:hidden items-end justify-end pt-4 border-t border-white/10"
         >
